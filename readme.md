@@ -23,3 +23,6 @@ Ett enkelt men roligt Pygame-baserat spel där du ska fånga fallande block med 
 
 ```bash
 pip install pygame
+
+git clone https://github.com/AryaEisa/pygame.git
+
