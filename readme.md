@@ -1,53 +1,71 @@
-==============================
-     CATCH THE FALLING BLOCKS
-==============================
+# 🎮 CatchRush – Fånga de fallande blocken
 
-Vad är detta?
--------------
-Detta är ett enkelt men roligt spel där du styr en plattform och försöker fånga block 
-som faller från toppen av skärmen. För varje block du fångar får du poäng.
+**CatchRush** är ett snabbt och beroendeframkallande minispel byggt med Python och Pygame.  
+Du styr en plattform och försöker fånga block som faller från skärmens topp. För varje fångat block ökar poängen. Missar du ett block? Game Over.  
+Spelet blir gradvis svårare ju längre du överlever – perfekt för reflexträning!
 
-Spelet blir svårare ju fler block du fångar. Missar du ett block är det Game Over – 
-men du kan enkelt starta om spelet igen.
+---
 
-Hur startar jag spelet?
------------------------
-1. Öppna mappen du laddade ner (exempelvis "CatchRush_Game" eller liknande).
-2. Dubbelklicka på filen som heter: CatchRush.exe
-3. Vänta några sekunder – spelet startar i ett eget fönster.
+## 📥 Ladda ner spelet
 
-Du behöver INTE installera något extra program. Allt fungerar direkt!
+👉 [Hämta CatchRush.exe här (Windows)](https://github.com/AryaEisa/pygame/releases/tag/v1.0)
 
-Hur spelar jag?
----------------
-- Använd piltangenterna på ditt tangentbord:
-    ←  Vänsterpil för att flytta plattformen åt vänster
-    →  Högerpil för att flytta plattformen åt höger
+> ✅ Ingen installation krävs  
+> ✅ Testat på Windows 10/11  
+> ✅ Dubbelklicka för att spela direkt
 
-- Fånga blocken som faller från toppen
-- Om du missar ett block blir det Game Over
+---
 
-Efter Game Over:
-----------------
-- Tryck på MELLANSLAG (SPACE) för att starta om spelet
-- Tryck på ESC för att avsluta spelet
+## 🕹️ Kontroller
 
-Vad finns i mappen?
--------------------
-- CatchRush.exe          → Spelet (dubbelklicka för att starta)
-- screenshot.png         → En bild som visar hur spelet ser ut
-- README.txt             → Den här instruktionen
+| Tangent      | Funktion               |
+|--------------|------------------------|
+| ← Vänsterpil | Flytta plattformen vänster |
+| → Högerpil   | Flytta plattformen höger  |
+| Space        | Starta om efter Game Over |
+| ESC          | Avsluta spelet         |
 
-Vem har gjort detta?
---------------------
-Spelet är utvecklat av Arya Eisa  
-GitHub: https://github.com/AryaEisa   
-Hemsida: https://aryaeisa.com
+---
 
-Systemkrav:
------------
-- Dator med Windows 10 eller senare
-- Ingen internetanslutning krävs
-- Inget behov av installation
+## 🧠 Funktioner
 
-Tack för att du testar spelet!
+- Anime-inspirerad bakgrund
+- Halvtransparent overlay
+- Game Over med restart-alternativ
+- Ökande svårighetsgrad
+- Körbar `.exe`-fil (paketerad med PyInstaller)
+
+---
+
+## 🖼️ Skärmbild
+
+![screenshot](screenshot.png)
+
+---
+
+## 🛠️ För utvecklare
+
+Vill du köra spelet från källkod?
+
+### Steg 1 – Installera beroenden:
+
+```bash
+pip install pygame
+
+python CatchRush.py
+
+👤 Utvecklare
+Skapat av Arya Eisa
+Kontakta mig gärna om du vill bidra, ge feedback eller bara testa fler projekt.
+
+
+---
+
+### 🔄 Så gör du:
+
+1. Kopiera ovanstående kod
+2. Öppna `README.md` i VS Code
+3. Klistra in allt och spara
+4. I terminalen:
+
+
