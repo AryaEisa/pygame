@@ -1,28 +1,53 @@
-# 🎮 Catch the Falling Blocks
+==============================
+     CATCH THE FALLING BLOCKS
+==============================
 
-Ett enkelt men roligt Pygame-baserat spel där du ska fånga fallande block med en plattform. Varje block du fångar ökar din poäng – men missar du, är spelet över! Spelet blir gradvis svårare ju fler block du fångar.
+Vad är detta?
+-------------
+Detta är ett enkelt men roligt spel där du styr en plattform och försöker fånga block 
+som faller från toppen av skärmen. För varje block du fångar får du poäng.
 
-![screenshot](screenshot.png) <!-- Lägg till en bild om du har en -->
+Spelet blir svårare ju fler block du fångar. Missar du ett block är det Game Over – 
+men du kan enkelt starta om spelet igen.
 
----
+Hur startar jag spelet?
+-----------------------
+1. Öppna mappen du laddade ner (exempelvis "CatchRush_Game" eller liknande).
+2. Dubbelklicka på filen som heter: CatchRush.exe
+3. Vänta några sekunder – spelet startar i ett eget fönster.
 
-## 🚀 Funktioner
+Du behöver INTE installera något extra program. Allt fungerar direkt!
 
-- Anime-inspirerad bakgrund
-- Halvtransparent overlay för tydlighet
-- Ökande svårighetsgrad
-- Game over-skärm med möjlighet att starta om
-- Tangentbordsstyrning (vänster/höger piltangenter)
+Hur spelar jag?
+---------------
+- Använd piltangenterna på ditt tangentbord:
+    ←  Vänsterpil för att flytta plattformen åt vänster
+    →  Högerpil för att flytta plattformen åt höger
 
----
+- Fånga blocken som faller från toppen
+- Om du missar ett block blir det Game Over
 
-## 🛠️ Installation
+Efter Game Over:
+----------------
+- Tryck på MELLANSLAG (SPACE) för att starta om spelet
+- Tryck på ESC för att avsluta spelet
 
-1. Se till att du har **Python 3** installerat.
-2. Installera **pygame** om du inte redan har det:
+Vad finns i mappen?
+-------------------
+- CatchRush.exe          → Spelet (dubbelklicka för att starta)
+- screenshot.png         → En bild som visar hur spelet ser ut
+- README.txt             → Den här instruktionen
 
-```bash
-pip install pygame
+Vem har gjort detta?
+--------------------
+Spelet är utvecklat av Arya Eisa  
+GitHub: https://github.com/AryaEisa   
+Hemsida: https://aryaeisa.com
 
-git clone https://github.com/AryaEisa/pygame.git
+Systemkrav:
+-----------
+- Dator med Windows 10 eller senare
+- Ingen internetanslutning krävs
+- Inget behov av installation
 
+Tack för att du testar spelet!

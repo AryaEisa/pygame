@@ -4,6 +4,15 @@ import random
 import sys
 # Lägg till högst upp efter import
 # anime_bg will be loaded after W and H are defined
+import os
+import sys
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS  # När det körs som .exe
+    except Exception:
+        base_path = os.path.abspath(".")  # När det körs som .py
+    return os.path.join(base_path, relative_path)
 
 # Initiera Pygame
 pygame.init()
@@ -18,7 +27,8 @@ screen = pygame.display.set_mode((W, H))
 screen = pygame.display.set_mode((W, H))
 
 # Ladda och skala bakgrundsbilden nu när W och H är definierade
-anime_bg = pygame.image.load("anime.png")
+anime_bg = pygame.image.load(resource_path("anime.png"))
+# Skala bakgrundsbilden till skärmstorleken
 anime_bg = pygame.transform.scale(anime_bg, (W, H))
 
 # Definiera färger (RGB-format)
