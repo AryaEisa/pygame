@@ -1,3 +1,12 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+
+# === Virtuella miljöer (om du skulle använda) ===
+venv/
+.venv/
 
 # === PyInstaller-filer ===
 build/
+dist/
+
